@@ -1,15 +1,8 @@
-CIGO CAA Studio — versione sperimentale 0.1
+CIGO CAA Studio v0.2
 
-1. Apri index.html con Chrome/Edge.
-2. Incolla il testo e clicca «Cerca i pittogrammi».
-3. Verifica ogni simbolo con «Cambia».
-4. Esporta Word o PDF.
-
-Per GitHub Pages: crea un repository pubblico, carica index.html, abilita Pages da Settings > Pages > Deploy from a branch > main / root.
-
-Requisiti: Internet. L'app usa API pubblica ARASAAC e librerie JavaScript da CDN.
-Non invia il testo a servizi IA: invia le parole da cercare all'API ARASAAC.
-La ricerca automatica non interpreta perfettamente il contesto: controllare sempre i simboli.
-La disponibilità di API e accesso CORS può variare: in caso di blocco, la conversione non funzionerà finché non si risolve la connessione.
-Licenza pittogrammi: Sergio Palao / ARASAAC, Governo di Aragona, CC BY-NC-SA, uso non commerciale.
-Creato con il supporto di AI — Prof. Marco Cigolotti — CIGO STUDIO
+Pubblicazione: carica index.html nella radice del repository GitHub Pages.
+Richiede connessione Internet per ARASAAC e le librerie docx/jsPDF.
+Novità: ricerca varianti italiane, editor parole e simboli, impostazioni A4, Word/PDF.
+Limiti: la ricerca è euristica e richiede revisione del docente; il PDF usa font standard per le parole accentate.
+Crediti: Prof. Marco Cigolotti — CIGO STUDIO. Creato con il supporto di AI.
+Pittogrammi: Sergio Palao / ARASAAC — Governo di Aragona — CC BY-NC-SA, uso non commerciale.
